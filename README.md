@@ -1,2 +1,2 @@
 # kubernetesdemo
-An intrudoction to nodejs and kubernetes on digitalocean
+An introduction to nodejs and kubernetes on digitalocean
