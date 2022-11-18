@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router();
 
 const port = 8080;
-const viewPath = __dirname + '/view/';
+const path = __dirname + '/view/';
 
 router.use(function(req,res,next) {
     console.log('/' + req.method);
