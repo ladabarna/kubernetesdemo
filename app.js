@@ -1,9 +1,12 @@
 const express = require('express');
+const patho = require('path')
 const app = express();
 const router = express.Router();
 
 const port = 8080;
 const path = __dirname + '/view/';
+
+const db = require('./db');
 
 router.use(function(req,res,next) {
     console.log('/' + req.method);
@@ -11,7 +14,7 @@ router.use(function(req,res,next) {
 })
 
 router.get('/',function(req,res) {
-    res.sendFile(path + 'index.html');
+    res.sendFile(patho.resolve('view/index.html'));
 })
 
 router.get('/sharks', function(req,res) {

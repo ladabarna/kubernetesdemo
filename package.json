@@ -2,14 +2,16 @@
     "name": "nodejs-image-demo",
     "version": "1.0.0",
     "description": "nodejs image demo",
-    "author": "Barni", "license": "MIT",
+    "author": "Barni",
+    "license": "MIT",
     "main": "app.js",
     "keywords": [
         "nodejs",
         "bootstrap",
         "express"
-      ],
-      "dependencies": {
-        "express": "^4.16.4"
-      }
+    ],
+    "dependencies": {
+        "express": "^4.16.4",
+        "mongoose": "^6.7.2"
     }
+}
