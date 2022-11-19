@@ -3,7 +3,7 @@ const Shark = require('../models/shark');
 
 
 exports.index = function(req,res) {
-    res.sendFile(path.resolve('view/shark.html'));
+    res.sendFile(path.resolve('view/sharks.html'));
 }
 
 
